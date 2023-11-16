@@ -5,16 +5,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sorting Visualizer</title>
+    <title>Kennect's Sorting Visualizer</title>
 
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 
 </head>
 
 <body style="background-color:rgb(183, 193, 194);">
 
     <header>
-        <p style="text-align: center; color:rgb(0, 0, 0);font-family: 'Times New Roman', Times, serif; font-size: xx-large;">Sorting Algotithem Visualizer</p>
+        <p style="text-align: center; color:rgb(0, 0, 0);font-family: 'Times New Roman', Times, serif; font-size: xx-large;"> Kennect's Sorting Algotithem Visualizer</p>
         <nav>
         <div class="array-inputs">
                 <p>Array Size:</p>
@@ -24,7 +26,7 @@
             </div>
 
                 <div class="header_right">
-                    <button class="btn-prop" id="a_generate">Generate New Array</button> 
+                    <button  type="button" class="btn btn-success" id="a_generate">Generate New Array</button> 
                 </div>
            
         </nav>
@@ -48,17 +50,18 @@
 
     <footer class="footer" >
         <div class="algos">
-            <button style="margin: 20px;">Bubble</button>
-            <button style="margin: 20px;">Selection</button>
-            <button style="margin: 20px;">Insertion</button>
-            <button style="margin: 20px;">Merge</button>
-            <button style="margin: 20px;">Quick</button>
-            <button style="margin: 20px;">Heap</button>
+            <button style="margin: 20px;"  type="button" class="btn btn-primary">Bubble</button>
+            <button style="margin: 20px;"  type="button" class="btn btn-primary">Selection</button>
+            <button style="margin: 20px;"  type="button" class="btn btn-primary">Insertion</button>
+            <button style="margin: 20px;"  type="button" class="btn btn-primary">Merge</button>
+            <button style="margin: 20px;"  type="button" class="btn btn-primary">Quick</button>
+            <button style="margin: 20px;"  type="button" class="btn btn-primary">Heap</button>
         </div>
 
-      © All rights reserved 2022: Kaushal Kumar
+      © All rights reserved 2023: Vivek Solanki
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     <script src="./scripts/main.js"></script>
     <!--This should be at the end of body and should be loaded before sorts.js-->
